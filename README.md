@@ -19,4 +19,5 @@ This app allows users to record their own key presses and replay them with confi
 **AWT Robot** (`java.awt.Robot`) – Enables low-level keyboard automation by simulating key presses and releases programmatically.
 
 **Concurrency & Asynchronous Processing**  
+
 **Kotlin Coroutines** – Manages background tasks such as repeated key execution in an asynchronous and non-blocking manner.
