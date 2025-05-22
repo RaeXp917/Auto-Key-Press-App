@@ -4,14 +4,22 @@ This tool is for educational and personal use only. Do not use it in ways that v
 
 
 
-Core Stack & Roles:
+Core Stack & Technologies
 
-Kotlin: Primary development language.
+Programming Language:
 
-Swing (javax.swing.*): Provides the GUI components (window, buttons, input fields).
+  Kotlin – Main development language used for the application logic and structure.
 
-java.awt.Robot: Handles low-level input simulation (key presses/releases).
+User Interface Toolkit:
 
-Kotlin Coroutines: Manages the background task for asynchronous, non-blocking key repetition.
+   Java Swing (javax.swing.*) – Used to build the GUI components (windows, buttons, input fields).
 
-KeyListener (java.awt.event): Captures user input for key recording.
+  AWT Event System (java.awt.event.KeyListener) – Captures and handles keyboard input events.
+
+System-Level Interaction:
+
+  AWT Robot (java.awt.Robot) – Simulates low-level keyboard actions (key press/release) programmatically.
+
+Concurrency & Asynchronous Processing:
+
+  Kotlin Coroutines – Handles background tasks like continuous key spamming in a non-blocking, efficient manner.
