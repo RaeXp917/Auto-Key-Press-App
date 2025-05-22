@@ -3,6 +3,7 @@ This app allows users to record their own key presses and replay them with confi
 This tool is for educational and personal use only. Do not use it in ways that violate terms of service, privacy laws, or ethical standards.
 
 
+
 Core Stack & Roles:
 
 Kotlin: Primary development language.
