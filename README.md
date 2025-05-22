@@ -6,20 +6,15 @@ This tool is for educational and personal use only. Do not use it in ways that v
 
 Core Stack & Technologies
 
-Programming Language:
+Programming Language
+Kotlin – The primary language used for writing application logic and managing program structure.
 
-  Kotlin – Main development language used for the application logic and structure.
+User Interface Toolkit
+Java Swing (javax.swing.*) – Provides the GUI elements including windows, buttons, and input fields.
+AWT Event System (java.awt.event.KeyListener) – Captures and processes user keyboard input events.
 
-User Interface Toolkit:
+System-Level Interaction
+AWT Robot (java.awt.Robot) – Enables low-level keyboard automation by simulating key presses and releases programmatically.
 
-   Java Swing (javax.swing.*) – Used to build the GUI components (windows, buttons, input fields).
-
-  AWT Event System (java.awt.event.KeyListener) – Captures and handles keyboard input events.
-
-System-Level Interaction:
-
-  AWT Robot (java.awt.Robot) – Simulates low-level keyboard actions (key press/release) programmatically.
-
-Concurrency & Asynchronous Processing:
-
-  Kotlin Coroutines – Handles background tasks like continuous key spamming in a non-blocking, efficient manner.
+Concurrency & Asynchronous Processing
+Kotlin Coroutines – Manages background tasks such as repeated key execution in an asynchronous and non-blocking manner.
