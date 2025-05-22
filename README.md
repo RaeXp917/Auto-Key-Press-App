@@ -3,12 +3,12 @@ This is a simple desktop application that lets you record a specific key from yo
 
 Core Stack & Roles:
 
-    Kotlin: Primary development language.
+Kotlin: Primary development language.
 
-    Swing (javax.swing.*): Provides the GUI components (window, buttons, input fields).
+Swing (javax.swing.*): Provides the GUI components (window, buttons, input fields).
 
-    java.awt.Robot: Handles low-level input simulation (key presses/releases).
+java.awt.Robot: Handles low-level input simulation (key presses/releases).
 
-    Kotlin Coroutines: Manages the background task for asynchronous, non-blocking key repetition.
+Kotlin Coroutines: Manages the background task for asynchronous, non-blocking key repetition.
 
-    KeyListener (java.awt.event): Captures user input for key recording.
+KeyListener (java.awt.event): Captures user input for key recording.
